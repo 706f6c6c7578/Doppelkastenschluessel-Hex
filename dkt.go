@@ -11,7 +11,7 @@ import (
 const alphabet = "0123456789ABCDEF"
 
 func main() {
-	numSheets := flag.Int("a", 1, "Anzahl der Schlüssel (A und B Paare)")
+	numSheets := flag.Int("a", 2, "Anzahl der Schlüssel (A und B Paare)")
 	flag.Parse()
 
 	if *numSheets < 1 {
