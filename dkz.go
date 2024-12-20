@@ -48,7 +48,7 @@ func createDeterministicRNG(password, salt string, runCounter int) *rand.Rand {
 }
 
 func main() {
-	count := flag.Int("a", 4, "Anzahl der zu erzeugenden Zahlen")
+	count := flag.Int("a", 2, "Anzahl der zu erzeugenden Zahlen")
 	maxDigits := flag.Int("z", 2, "Maximale Anzahl von Dezimalstellen pro Zahl")
 	separator := flag.String("t", ",", "Trennzeichen zwischen Zahlen")
 	runs := flag.Int("d", 1, "Anzahl der Durchläufe")
